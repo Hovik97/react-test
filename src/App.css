@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.common_back_color {
+    background-color: black;
+    min-height: 100vh;
+}
+
+.texts_common_color {
+    color: #cacaca;
+}
+
+.main_block {
+    min-height: calc(100vh - 60px);
+    padding-top: 60px;
+}
+
+.sidebar {
+    overflow: hidden;
+    transition: .5s;
+    position: fixed;
+    top: 60px;
+}
+
+.open_sidebar {
+    width: 280px;
+}
+
+.close_sidebar {
+    width: 0;
+}
+
+.wrapper {
+    width: 100%;
+    transition: .5s;
+}
+
+.collapse_wrapper_style {
+    margin-left: 280px;
+}

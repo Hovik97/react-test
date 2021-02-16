@@ -1,0 +1,15 @@
+.category_block {
+    padding: 10px;
+    white-space: nowrap;
+    border-bottom: 2px solid #757575;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.category_block:hover {
+    background-color: #1d1c1c;
+}
+
+.category_item:hover {
+    color: white;
+}
